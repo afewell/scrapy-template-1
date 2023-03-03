@@ -1,0 +1,8 @@
+export ALLOWED_DOMAINS=docs.vmware.com
+export START_URLS='https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-index.html'
+export ALLOW_RULE="en/VMware-Tanzu-Kubernetes-Grid/1.5/.*"
+
+
+add-apt-repository ppa:cncf-buildpacks/pack-cli -y
+apt-get update
+apt-get install pack-cli -y

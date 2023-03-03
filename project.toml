@@ -1,0 +1,16 @@
+[buildpacks]
+  [[buildpacks.build]]
+    id = "heroku/python"
+    version = "0.0.1"
+
+  [[buildpacks.build]]
+    id = "heroku/python-buildpack"
+    version = "v155"
+
+  [[buildpacks.build]]
+    id = "heroku/python-cffi"
+    version = "0.0.1"
+
+[[buildpacks.detect]]
+  id = "heroku/python"
+  version = "0.0.1"
